@@ -283,7 +283,7 @@ header {
 /* banner items container styles end */
 
 /* product preview section styles start */
-.product-preview-container{
+.product-preview-container {
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
@@ -305,28 +305,118 @@ header {
 .slider-image img {
     width: 100%;
 }
-.product-preview-content{
+
+.product-preview-content {
     justify-content: center;
     align-items: center;
     overflow: scroll;
     overflow-y: hidden;
     gap: 30px;
 }
-.product{
+
+.product {
     width: 450px;
     justify-content: space-between;
 }
-.product h3{
+
+.product h3 {
     letter-spacing: 0.4px;
     font-weight: 600;
     font-size: 1.5rem;
     padding: 20px 4px;
 }
-.product span{
+
+.product span {
     color: steelblue;
 }
+
 /* product preview section styles end */
 
-.none{
+.none {
     display: none;
 }
+
+/* kitchen section style start */
+.kitchen-container ,
+.home-appliance-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.kitchen-content-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.grid-kitchen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 20px 10px;
+}
+
+#parent-div {
+    width: 350px;
+    background: white;
+    padding: 24px 10px;
+}
+
+.kitchen-item {
+    width: 80%;
+}
+
+.kitchen-item img {
+    width: 136px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.grid-kitchen a {
+    text-align: left;
+    text-decoration: none;
+    font-size: var(--primary-font-size);
+}
+
+/* kitchen section style end */
+
+/* .home-appliance-container styles start */
+.home-appliance-container,
+.display-grid-view{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.home-appliance-content{
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 50px;
+}
+.display-grid-view > div{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.display-grid-view img{
+    width: 100%;
+    height: 60px;
+}
+.display-grid-view{
+    padding-top: 12px;
+}
+.display-grid-view > div > h3{
+    padding: 10px;
+}
+.home-img{
+    width: 310px;
+    height: 140px;
+    object-fit: contain;
+}
+#home-img-id,
+#home-img-id2,
+#home-img-id3,
+#home-img-id4{
+    border: 3px solid steelblue;
+}
+/* .home-appliance-container styles end */
